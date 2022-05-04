@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterformComponent } from './registerform/registerform.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginformComponent } from './loginform/loginform.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterformComponent
+    RegisterformComponent,
+    LoginformComponent,
+  
   ],
   imports: [
     BrowserModule,

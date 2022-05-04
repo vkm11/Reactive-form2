@@ -4,21 +4,16 @@
     /* background-color: #fff; */
     padding: 2% 2%;
 }
-button{
-    background-color: blue;
-    color: #fff;
-
-}
-button:hover{
-    color:#fff;
-    text-align: center;
-    padding: 2px;
-    
-}
-.error{
-    color: red;
-}
 .custom1{
     text-align: center;
     color: rgb(255, 60, 0)
+}
+.form-label{
+    color: white;
+}
+.btn{
+    color: white;
+}
+.error{
+    color: red;
 }
