@@ -2,7 +2,16 @@
     justify-content: right;
     display: flex;
     align-items: center;
+
 }
 .navbar-light{
     background-color: rgb(205, 112, 50);
+}
+.nav-item{
+    border: 1px;
+    width: fit-content;
+    border-style: ridge;
+    border-radius: 1rem;
+    white-space: normal;
+
 }
