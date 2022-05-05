@@ -2,7 +2,6 @@
     justify-content: right;
     display: flex;
     align-items: center;
-
 }
 .navbar-light{
     background-color: rgb(205, 112, 50);
@@ -14,4 +13,12 @@
     border-radius: 1rem;
     white-space: normal;
 
+}
+span.i{
+    color: rgb(223, 10, 10);
+    font-family: "Trebuchet MS", Verdana, cursive;
+    font-size: 40px;
+}
+.itwinetech{
+    width: 100px;
 }
