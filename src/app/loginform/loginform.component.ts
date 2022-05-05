@@ -15,16 +15,33 @@ export class LoginformComponent implements OnInit {
     this.Loginform = new FormGroup({
       // "emailId":  new FormControl('',[Validators.required,Validators.pattern('[a-zA-Z]*')]),
       "emailId":  new FormControl(null,[Validators.required,Validators.email]),
-      "password":  new FormControl('',[Validators.required,Validators.pattern('((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,30})')]),
+       
+      "Password":  new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')]),
       
     });
   }
 
   // submit function
-  submitData(){
-    console.log(this.Loginform.value);
+  // submitData(){
+  //   console.log(this.Loginform.value);
 
-  }
+  // }
+    // submit function
+    submitData(){
+      console.log(this.Loginform.value);
+  
+  
+      if(this.Loginform.valid){
+        alert(`Login Successfully`);
+        this.Loginform.reset();  // reset form value
+      }
+  
+  
+    }
+
+
+
+
   get emailid() { return this.Loginform.get('emailId'); } //emailId
-  get Password() { return this.Loginform.get('password'); } //password
+  get password() { return this.Loginform.get('Password'); } //password
 }
