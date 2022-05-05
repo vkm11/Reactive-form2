@@ -15,7 +15,8 @@ export class RegisterformComponent implements OnInit {
     this.registerForm = new FormGroup({
       "firstName":  new FormControl(null,[Validators.required,Validators.pattern('[a-zA-Z]*')]),
       "lastName":  new FormControl(null,[Validators.required,Validators.pattern('[a-zA-Z]*')]),
-      "emailId":  new FormControl(null,[Validators.required,Validators.email]),
+      // "emailId":  new FormControl(null,[Validators.required,Validators.email]),
+      "emailId":  new FormControl(null,[Validators.required,Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")]),
       "mobileNumber":  new FormControl(null,[Validators.required,Validators.pattern("^((\\+91-?)|0)?[0-9]{10}$")])
     });
   }

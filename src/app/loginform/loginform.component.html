@@ -12,7 +12,7 @@
 
         <div *ngIf="emailid.invalid && (emailid.touched || emailid.dirty)">
           <span class="error" *ngIf="emailid.errors?.required">*Email_Id is Required.</span>
-          <span class="error" *ngIf="emailid.errors?.email">*Enter valid Email Address.</span>
+          <span class="error" *ngIf="emailid.errors?.pattern">*Enter valid Email Address.</span>
         </div>
       </div>
 

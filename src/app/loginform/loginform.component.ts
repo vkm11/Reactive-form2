@@ -13,8 +13,8 @@ export class LoginformComponent implements OnInit {
  
   ngOnInit(): void {
     this.Loginform = new FormGroup({
-      // "emailId":  new FormControl('',[Validators.required,Validators.pattern('[a-zA-Z]*')]),
-      "emailId":  new FormControl(null,[Validators.required,Validators.email]),
+      "emailId":  new FormControl(null,[Validators.required,Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")]),
+      // "emailId":  new FormControl(null,[Validators.required,Validators.email]),
        
       "Password":  new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')]),
       
