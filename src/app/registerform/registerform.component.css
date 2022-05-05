@@ -3,6 +3,7 @@
     margin: auto;
     /* background-color: #fff; */
     padding: 2% 2%;
+   
 }
 button{
     background-color: blue;
@@ -22,3 +23,13 @@ button:hover{
     text-align: center;
     color: rgb(255, 60, 0)
 }
+.form-label{
+    color: white;
+}
+.container{
+    border-style: ridge;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+}
+
