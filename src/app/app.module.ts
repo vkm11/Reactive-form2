@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { RegisterformComponent } from './registerform/registerform.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginformComponent } from './loginform/loginform.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -13,6 +15,9 @@ import { LoginformComponent } from './loginform/loginform.component';
     AppComponent,
     RegisterformComponent,
     LoginformComponent,
+    HomeComponent,
+    AboutComponent,
+    
   
   ],
   imports: [

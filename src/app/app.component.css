@@ -1,0 +1,8 @@
+#navbarNav{
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+.navbar-light{
+    background-color: rgb(205, 112, 50);
+}

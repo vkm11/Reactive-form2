@@ -18,3 +18,9 @@
 .error{
     color: red;
 }
+.container{
+    border-style: ridge;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+}

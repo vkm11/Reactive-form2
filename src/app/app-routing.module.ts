@@ -3,9 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginformComponent } from './loginform/loginform.component';
 import { RegisterformComponent } from './registerform/registerform.component';
 
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+
 const routes: Routes = [
-  { path: '', component: LoginformComponent},
-  { path: 'register', component: RegisterformComponent}
+  // { path: 'login', component: LoginformComponent},
+  { path: 'login', component: LoginformComponent},
+  { path: 'register', component: RegisterformComponent},
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent}
 ];
 
 @NgModule({
@@ -14,9 +20,9 @@ const routes: Routes = [
 })
 export class AppRoutingModule { 
 
-  onClick(){
+  // onClick(){
 
-    console.log("Login Successfully!")
+  //   console.log("Login Successfully!")
    
-  }
+  // }
 }
