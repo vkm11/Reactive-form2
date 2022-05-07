@@ -8,7 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginformComponent } from './loginform/loginform.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-
+import{ MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [
@@ -24,7 +24,9 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatIconModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
