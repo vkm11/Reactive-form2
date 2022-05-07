@@ -8,10 +8,12 @@ import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   // { path: 'login', component: LoginformComponent},
-  { path: 'login', component: LoginformComponent},
+  { path: '', component: LoginformComponent},
   { path: 'register', component: RegisterformComponent},
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent}
+  { path: 'about', component: AboutComponent},
+  { path: 'login', component: LoginformComponent},
+
 ];
 
 @NgModule({
