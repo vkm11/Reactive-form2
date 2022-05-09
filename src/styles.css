@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-image: url("../../Reactive-form/img/img1.jpg");
+    /* background-image: url("../../Reactive-form/src/assets/Image/img1.jpg"); */
+    background-color: rgb(10, 30, 68)
     /* background - image: url("../../assets/images/back2.jpg");  */
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

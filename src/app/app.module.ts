@@ -8,7 +8,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginformComponent } from './loginform/loginform.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import{ MatIconModule } from '@angular/material/icon'
+import{ MatIconModule } from '@angular/material/icon';
+import { JobsComponent } from './jobs/jobs.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,8 @@ import{ MatIconModule } from '@angular/material/icon'
     LoginformComponent,
     HomeComponent,
     AboutComponent,
+    JobsComponent,
+   
     
   
   ],

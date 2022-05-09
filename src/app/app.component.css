@@ -22,3 +22,9 @@ span.i{
 .itwinetech{
     width: 100px;
 }
+
+#navbarNav .home_icon button{
+    border: none;
+    background: none;
+    color: blue;
+}

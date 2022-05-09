@@ -12,14 +12,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
 
-            <div class="example-button-container">
-                <button mat-fab color="warn" aria-label="Example icon button with a home icon">
+            <div class="home_icon">
+            
+                <button>
                   <mat-icon>home</mat-icon>
+                  
                 </button>
               </div>
 
 
             <a class="nav-item nav-link active" routerLink="home">Home Page</a>
+            <a class="nav-item nav-link active" routerLink="jobs">Jobs Page</a>
+            
             <a class="nav-item nav-link" routerLink="about">About Page</a>
             <a class="nav-item nav-link" routerLink="login">Signin</a>
             <!-- <a class="nav-item nav-link" routerLink="register">Register</a> -->
@@ -28,6 +32,20 @@
       
     </div>
 </nav>
-<div class="container">
+
+<!-- Scroll bar - start -->
+<!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <h4 id="scrollspyHeading1">Home Page</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading2">About Page</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading3">Signin</h4>
+    <p>...</p>
+  </div> -->
+<!-- Scroll bar - end -->
+
+
+
+
+
     <router-outlet></router-outlet>
-</div>

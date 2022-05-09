@@ -6,7 +6,9 @@
 }
 .custom1{
     text-align: center;
+    padding: 3% 3% 3% 3%;
     color: rgb(255, 60, 0)
+    
 }
 .form-label{
     color: white;
@@ -23,4 +25,5 @@
     position: relative;
     margin: auto;
     width: fit-content;
+    background-image: url("../../assets/Image/img1.jpg");
 }

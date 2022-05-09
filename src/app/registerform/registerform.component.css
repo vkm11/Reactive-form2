@@ -26,6 +26,9 @@ button:hover{
     border-style: ridge;
     position: relative;
     margin: auto;
-    width: fit-content;
+    width: max-content;
+    
+    background-image: url("../../assets/Image/img1.jpg");
+
 }
 
