@@ -18,3 +18,6 @@ body{
     color: red;
     font-size: 5rem;
 }
+.nav-item{
+    background-color: rgb(255, 0, 179);
+}

@@ -26,5 +26,11 @@ span.i{
 #navbarNav .home_icon button{
     border: none;
     background: none;
-    color: blue;
+    color: rgb(93, 25, 107);
+  
+  
+}
+.nav-item{
+    background-color: rgb(161, 46, 136);
+    color: azure;
 }
